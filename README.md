@@ -1,4 +1,8 @@
 Customer Orders ETL Pipeline
+
+respiratory link:
+https://github.com/mounivelaga/customer-orders-etl
+
 Project Overview
 
 This project implements an End-to-End ETL (Extract, Transform, Load) pipeline using Python, REST APIs, Pandas, and PostgreSQL.

@@ -17,7 +17,7 @@ class Transformer:
                         "product_name": product["title"],
                         "quantity": product["quantity"],
                         "unit_price": product["price"],
-                        "total_amount": product["quality"] * product["price"],
+                        "total_amount": product["quantity"] * product["price"],
                     }
                 )
         df = pd.DataFrame(rows)

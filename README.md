@@ -5,9 +5,9 @@ https://github.com/mounivelaga/customer-orders-etl
 
 Project Overview
 
-This project implements an End-to-End ETL (Extract, Transform, Load) pipeline using Python, REST APIs, Pandas, and PostgreSQL.
+This project implements an End-to-End ETL (Extract, Transform, Load) pipeline using Python, REST APIs, Pandas, and PostgreSQL..
 
-The pipeline extracts customer order data from a REST API, transforms the raw JSON into a structured tabular format, and loads the processed data into a PostgreSQL database.
+The pipeline extracts customer order data from a REST API, transforms the raw JSON into a structured tabular format, and loads the processed data into a PostgreSQL database..
 
 This project demonstrates real-world Data Engineering concepts including:
 

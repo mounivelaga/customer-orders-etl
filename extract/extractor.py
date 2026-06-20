@@ -11,7 +11,7 @@ class Extractor:
         self.api_url = api_url
 
     def fetch_data(self):
-        logger.info("Extraction started")
+        logger.info("Extraction started..")
 
         response = requests.get(self.api_url)
         response.raise_for_status()
@@ -22,6 +22,6 @@ class Extractor:
         with open("raw_data/orders.json", "w") as file:
             json.dump(data, file, indent=4)
 
-        logger.info("Raw data saved")
+        logger.info("Raw data saved.")
 
         return data

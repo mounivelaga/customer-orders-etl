@@ -19,4 +19,4 @@ df = transformer.transform(data)
 
 loader.load_data(df)
 
-print("ETL Pipeline Completed Sucessfully.")
+print("ETL Pipeline Completed Sucessfully")

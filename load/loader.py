@@ -9,4 +9,4 @@ class Loader:
 
         df.to_sql("orders", engine, if_exists="append", index=False)
 
-        logger.info("Loading completed")
+        logger.info("Loading completed.")

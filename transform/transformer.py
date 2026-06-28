@@ -4,7 +4,7 @@ from utils.logger import logger
 
 class Transformer:
     def transform(self, data):
-        logger.info("Transformation Started")
+        logger.info("Transformation Started..")
 
         rows = []
 
